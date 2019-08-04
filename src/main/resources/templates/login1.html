@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>登录</title>
+    <script src="https://cdn.staticfile.org/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-6 col-xs-offset-3" style="margin-top: 20%">
+
+            <form action="/user/ulogin" method = "get">
+                <div class="form-group">
+                    <label for="exampleInputUsername">用户名</label>
+                    <input type="text" class="form-control" id="exampleInputUsername" name="username"
+                            placeholder="username">
+                </div>
+
+                <div class="form-group">
+                    <label for="exampleInputPassword">密码</label>
+                    <input type="password" class="form-control" id="exampleInputPassword" name="password"
+                    placeholder="password">
+                </div>
+
+
+                <button type="submit" class="btn btn-default">登录</button>
+<!--                <input type="submit" value="登录">-->
+                <!--        <br>-->
+<!--                <a href="index1.html" target="_blank"></a>-->
+
+            </form>
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>
